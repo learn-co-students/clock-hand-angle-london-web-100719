@@ -9,5 +9,4 @@ def clock_angle(time)
     angle = (m_angle - h_angle) % 360
 
     angle > 180 ? 360 - angle : angle
-
 end
